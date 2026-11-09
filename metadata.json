@@ -1,0 +1,22 @@
+{
+    "project": "Titanic ML Inference API",
+    "model_file": "champion_model.joblib",
+    "problem_type": "Binary Classification",
+    "dataset": "Titanic",
+    "target": "Survived",
+    "classes": {
+        "0": "Did not survive",
+        "1": "Survived"
+    },
+    "input_features": [
+        "Pclass",
+        "Sex",
+        "Age",
+        "SibSp",
+        "Parch",
+        "Fare",
+        "Embarked"
+    ],
+    "framework": "scikit-learn",
+    "api_framework": "FastAPI"
+}
